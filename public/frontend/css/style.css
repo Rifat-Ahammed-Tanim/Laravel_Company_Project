@@ -1,0 +1,364 @@
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+
+/* HOME PAGE */
+
+* {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.p-bg {
+    background-color: #003a6f;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.btn {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bg-colors {
+    background-color: #003a6f;
+}
+
+
+.logo-img {
+    width: 100px;
+
+}
+
+h5 {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #003a6f;
+}
+
+.banner-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-right {
+    width: 50%;
+    border-radius: 100px 100px 0 0;
+    background-color: #ffc56b;
+}
+
+.banner-left {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.service-section {
+    background-color: #003a6f;
+}
+
+.div-bg{
+    background-color: #003a6f;
+}
+
+.text-color {
+    color: #003a6f;
+}
+
+.card-bg {
+    background-color: #fdecd1;
+}
+
+.service-rate {
+    background-color: #003a6f;
+}
+
+.hire-section {
+    background-color: #fdecd1;
+}
+
+.hire-dev {
+    display: flex;
+}
+
+.contact {
+    background-color: #003a6f;
+}
+
+.contact-div {
+    display: flex;
+
+}
+
+/* About Page */
+.emoji {
+    width: 400px;
+}
+
+.woman {
+    width: 600px;
+    /* position: relative; */
+    /* position: absolute; */
+
+}
+
+.woman-text {
+    /* position: absolute; */
+    width: 200px;
+    height: 100px;
+    position: relative;
+    bottom: 100px;
+    left: 0px;
+}
+
+.job-text {
+    position: relative;
+    bottom: 125px;
+    left: 35%;
+}
+
+.search {
+    position: relative;
+
+    bottom: 150px;
+}
+
+.our-mission {
+    background-color: #fdecd1;
+}
+
+.mission {
+    width: 600px;
+}
+
+.startegy {
+    background-color: #f6f5f4;
+}
+
+.one {
+    background: #ffc56b;
+    width: 50%;
+}
+
+.two {
+    background-color: #ff5959;
+    width: 50%;
+}
+
+.blog-img {
+    width: 350px;
+    border-radius: 50px 50px 0 0;
+
+}
+
+
+/* testiog page */
+
+.service-box {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 250px;
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+    background-color: #fdecd1;
+    /* Light gray background on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.icon i {
+    transition: color 0.3s ease;
+}
+
+.service-box:hover .icon i {
+    color: #ff5e57;
+    /* Change the icon color on hover */
+}
+
+.table-bordered td,
+.table-bordered th {
+    border: 1px solid #ddd;
+}
+
+.table-bordered thead th {
+    background-color: #f2f2f2;
+}
+
+
+/* how we work section */
+.step-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Ensure even spacing inside the card */
+}
+
+.step-card:hover {
+    transform: translateY(-5px);
+}
+
+.step-number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff6b6b;
+    margin-bottom: 1rem;
+}
+
+h5 {
+    color: #333;
+}
+
+p {
+    color: #777;
+}
+
+.row.g-4 {
+    row-gap: 1.5rem;
+    /* Optional: adjust vertical space between rows */
+}
+
+.process-section {
+    background-color: #fdecd1;
+}
+
+/* packages//////////////////////////////////////////////////////////// */
+/* Section Background */
+.pricing-section {
+    background-color: #f9f9f9;
+}
+
+/* Table Headings */
+.table th {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Table Row Padding */
+.table td {
+    padding: 20px;
+    vertical-align: middle;
+}
+
+/* Different Background Colors for Columns */
+.startup-bg {
+    background-color: #fce8e8;
+}
+
+.agile-bg {
+    background-color: #ffe4c3;
+}
+
+.enterprise-bg {
+    background-color: #e2f0d9;
+}
+
+.balance-bg {
+    background-color: #e0f4f7;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #ff6b6b;
+    border-color: #ff6b6b;
+    padding: 10px 20px;
+}
+
+/* Adding some spacing */
+.table-responsive {
+    padding: 20px;
+}
+
+/* Tab Links Styling */
+.nav-tabs .nav-link.active {
+    background-color: #ff6b6b;
+    color: #fff;
+}
+
+.tr td {
+    padding: 100px;
+}
+
+.globally {
+    margin: 30px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .banner-left {
+        width: 100%;
+    }
+
+    .banner-right {
+        width: 100%;
+        display: none;
+    }
+
+    .hire-dev {
+        flex-direction: column;
+    }
+}
+
+/* QA jobs page */
+/* Card Flex and Centering */
+.card {
+    flex-grow: 1;
+    text-align: center;
+}
+
+/* Image Responsiveness */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer Alignment */
+.footer .card-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .footer .card-group {
+        flex-direction: row;
+    }
+}
+
